@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASPNETCoreWebApplication.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ASPNETCoreWebApplication.Controllers
 {
@@ -19,6 +20,7 @@ namespace ASPNETCoreWebApplication.Controllers
         }
 
         // GET: Clients
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Clients.ToListAsync());
