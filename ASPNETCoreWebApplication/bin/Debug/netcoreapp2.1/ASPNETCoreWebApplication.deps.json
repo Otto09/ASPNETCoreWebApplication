@@ -25,6 +25,7 @@
       "ASPNETCoreWebApplication/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
+          "Microsoft.AspNetCore.Authentication.AzureAD.UI": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1"
         },
@@ -33,6 +34,28 @@
         },
         "compile": {
           "ASPNETCoreWebApplication.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.AzureAD.UI/2.1.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Cookies": "2.1.1",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "2.1.1",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "2.1.1",
+          "Microsoft.AspNetCore.Mvc": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          },
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.AzureAD.UI.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll": {},
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.AzureAD.UI.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -3472,6 +3495,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.AzureAD.UI/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hr4tvrlhzDy1/Qpst/q8cQSqlp2Kk2Mw4+wtGf33tWY+QhPa70u200j+adVw/5pNUc3PBH+oButHlVxkrUhIkg==",
+      "path": "microsoft.aspnetcore.authentication.azuread.ui/2.1.1",
+      "hashPath": "microsoft.aspnetcore.authentication.azuread.ui.2.1.1.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",

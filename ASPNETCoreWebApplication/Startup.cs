@@ -36,30 +36,27 @@ namespace ASPNETCoreWebApplication
             });
             if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
             {
-                services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
-
                 services.AddDbContext<ClientsContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("ClientsContext")));
+                    options.UseSqlServer(
+                        Configuration.GetConnectionString("ProductionConnection")));
+
+                // Automatically perform database migration
+                services.BuildServiceProvider().GetService<ClientsContext>().Database.Migrate();
             }
             else
             {
                 services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    options.UseSqlServer(
+                        Configuration.GetConnectionString("DefaultConnection")));
 
                 services.AddDbContext<ClientsContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("ClientsContext")));
+                    options.UseSqlServer(
+                        Configuration.GetConnectionString("ClientsContext")));
+
+                services.AddDefaultIdentity<IdentityUser>()
+                    .AddEntityFrameworkStores<ApplicationDbContext>();
             }
-            // Automatically perform database migration
-
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
-            services.BuildServiceProvider().GetService<ClientsContext>().Database.Migrate();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

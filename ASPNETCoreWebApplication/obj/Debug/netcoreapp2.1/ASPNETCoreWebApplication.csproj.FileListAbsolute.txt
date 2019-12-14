@@ -51,7 +51,6 @@ C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCo
 C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\ASPNETCoreWebApplication.csprojAssemblyReference.cache
 C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\ASPNETCoreWebApplication.RazorAssemblyInfo.cache
 C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\ASPNETCoreWebApplication.RazorAssemblyInfo.cs
-C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\ASPNETCoreWebApplication.AssemblyInfoInputs.cache
 C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\ASPNETCoreWebApplication.AssemblyInfo.cs
 C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\ASPNETCoreWebApplication.TagHelpers.input.cache
@@ -80,3 +79,4 @@ C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCo
 C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\ASPNETCoreWebApplication.dll
 C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\ASPNETCoreWebApplication.pdb
 C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\ASPNETCoreWebApplication.csproj.CopyComplete
+C:\dotnetcoreprojects\dotnetcorewebapp.com\www\ASPNETCoreWebApplication\ASPNETCoreWebApplication\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
